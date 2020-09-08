@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_barrios"
+            android:icon="@drawable/ic_item"
+            android:title="Historia" />
+        <item
+            android:id="@+id/nav_clientes"
+            android:icon="@drawable/ic_item"
+            android:title="¿Quienes somos?" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/ic_item"
+            android:title="Misión - Visión" />
+        <item
+            android:id="@+id/nav_configuraciones"
+            android:icon="@drawable/ic_item"
+            android:title="Representantes Locales - Nac." />
+        <item
+            android:id="@+id/nav_Noticias"
+            android:icon="@drawable/ic_item"
+            android:title="Noticias" />
+    </group>
+
+    <item android:title="Sincronización">
+        <menu>
+            <item
+                android:id="@+id/nav_sync"
+                android:icon="@drawable/ic_item"
+                android:title="Sincronizar Resultados" />
+            <item
+                android:id="@+id/nav_sync_datos"
+                android:icon="@drawable/ic_item"
+                android:title="Cargar Datos" />
+            <item
+                android:id="@+id/nav_sesion"
+                android:icon="@drawable/ic_item"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>
